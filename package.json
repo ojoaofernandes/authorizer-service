@@ -1,0 +1,22 @@
+{
+  "name": "authorizer-service",
+  "version": "1.0.0",
+  "description": "Example",
+  "keywords": [
+    "javascript",
+    "microservice"
+  ],
+  "homepage": "https://github.com/ojoaofernandes/authorizer-service#readme",
+  "bugs": {
+    "url": "https://github.com/ojoaofernandes/authorizer-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ojoaofernandes/authorizer-service.git"
+  },
+  "author": "Joao Fernandes (https://www.linkedin.com/in/ojoaofernandes)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
