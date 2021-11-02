@@ -2,9 +2,8 @@ const express = require('express');
 const mapOfProducts = require('./products.json')
   .reduce((acc, p) => ({ ...acc, [p.id]: p }), {});
 
-  console.log(mapOfProducts)
-
 const app = express();
+app.use(express.json());
 app.use(express.json());
 app.post('/checkout', (req, res) => {
   const { products } = req.body
